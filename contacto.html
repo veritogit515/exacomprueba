@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contacto</title>
+    <link rel="icon" type="Icono (.ico)" href="img/favicon.ico">
+    <script src="https://kit.fontawesome.com/f403d0ebf6.js" crossorigin="anonymous"></script>
+</head>
+<main>
+    <nav>
+        <a class="nav" href="index.html">Home</a>
+        <a class="nav" href="inicio.html">Inicio</a>
+        <a class="nav" href="planes.html">Planes</a>
+        <a class="nav" href="sucursales.html">Sucursales</a>
+    </nav>
+    <body>
+        <h1>Formulario de Contacto</h1>
+        <form action="mailto:verito515@gmail.com" method="post" enctype="text/plain">
+            <label> Nombre: <input type="text" name="nombre" maxlength="20" placeholder="Ingrese su Nombre">
+            </label>
+            <label> Apellido: <input type="text" name="apellido" maxlength="20" placeholder="Ingrese su Apellido">
+            </label>
+            <br>
+            <label> Direccion: <input type="text" name="domicilio" maxlength="50" placeholder="Ingrese su Domicilio">
+            </label>
+            <br>
+            <label> Nº de celular: <input type="number" name="celular" placeholder="Ingrese su Celular">
+            </label>
+            <label>Email: <input id="Email" type="email" name="email" required placeholder="mail_ejemplo@gmail.com">
+            </label>
+            <fieldset>
+                <legend>Tipo de Servicio</legend>
+                <label> Fibra Optica <input type="checkbox" name="servicio" value="Fibra Optica">
+                </label>
+                <label>Radio <input type="checkbox" name="servicio" value="Antena">
+                </label>
+                <label>
+                    Camaras de Seguridad
+                    <input type="checkbox" name="servicio" value="Camaras de Seguridad">
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Tipo de Contacto</legend>
+                <label>Solicitud Asesor <input type="radio" name="solicitud" value="Asesor">
+                </label>
+                <label>Servicio Tecnico <input type="radio" name="solicitud" value="Tecnico">
+                </label>
+                <label> Otros <input type="radio" name="solictud" value="Otros">
+                </label>
+            </fieldset>
+            <label for="Localidad">Seleccione una localidad</label>
+            <select id="Localidad" name="localidad">
+                <option value="Resistencia">Resistencia</option>
+                <option value="Puerto Tirol">Puerto Tirol</option>
+                <option value="Fontana">Fontana</option>
+            </select>
+            <br>
+            <br>
+            <label for="Comentarios">Comentarios:</label><textarea name="comentarios" rows="10" cols="30">Escribe aquí tus comentarios...</textarea>    
+            <br>
+            <br>
+            <input type="reset" value="Borrar">
+            <input type="submit"value="Enviar">
+        </form>
+    </main>
+</body>
+<footer>
+    <p> Grupo 15 - Comisión 22529 - Codo a Codo </p>
+    <p>Derechos Reservados @2022</p>
+</footer>
+</html>

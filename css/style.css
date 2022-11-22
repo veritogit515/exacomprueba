@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: black;
+    color: white;
+    margin-top: 5%auto;
+    padding: 25px;
+}
+main{
+    width: 100%;
+    margin-top: 10px;
+    padding: 25px;
+    text-align: left;
+}
+.nav{
+    background-color: rgb(17, 2, 2);
+    color:white;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: left;
+    box-shadow: 2px 3px 3px rgb(67, 72, 215);
+    letter-spacing: 2px;
+}
+h1{
+    color: hsl(0, 16%, 11%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    text-align: center;
+    padding: 25px;
+}
+h2{
+    text-align: left;
+    padding: 15px;
+}
+h3{
+    font-size: medium;
+    text-align: left;
+    padding: 10px;
+    margin-top: 10px;
+}
+p{
+    background-color: black;
+    font-weight: 50;
+    text-decoration: none;
+    text-align: center;
+}
+i{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 200;
+    letter-spacing: 15px;
+    }
+a{
+    color:green;
+    font-size: medium;
+    font-weight: 200;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+    padding: 25px;
+}
+body{
+    background: linear-gradient(to right, rgba(237, 237, 242, 0), rgb(202, 202, 215));
+    text-align: center;
+}
+fieldset{
+    margin-top: 25px;
+    border-radius: 15px;
+    padding: 20px;
+    width: 50%;
+}
+legend{
+    font-size: larger;
+    padding: 5px;
+}
+form label {
+    display:inline-block;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    margin: 10px;
+}
+label input {
+    padding: 5px;
+    font-size: small;
+}
+div{
+    font-weight: 400;
+    font-size:xx-large;
+}
+.plan{
+    margin:2% 50%;
+    width:20%;
+    height: max-content;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(175, 138, 209);
+    font-style: italic;
+    border-radius: 999px;
+    box-shadow: 5px 5px 5px rgba(0,0,0, 0.8);
+    overflow:hidden;
+    padding: 500 px;
+    border: 1px solid black;
+}
